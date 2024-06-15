@@ -43,7 +43,7 @@ async function getData(word) {
         sound.src = soundSrc;
     } catch (error) {
         search_result.innerHTML = `
-            <h3 class="error">Couldn't find the word</h3>
+            <h3 class="error">No result found</h3>
         `        
     }
 }
